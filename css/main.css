@@ -561,11 +561,74 @@ a{
     line-height: 150.6%;
     color: var(--desc-text-color);
 }
-
-
-
-
 /* ************ TEAM STYLE ENDS*************** */
+
+
+/* ************ WORK STYLE START*************** */
+.work-section{
+    padding-bottom: 120px;
+}
+
+.work__wrapper{
+    text-align: center;
+}
+
+.work__subtitle{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.work__title{
+    width: 649px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+.work__title-color{
+    color: var(--subtitle-text-color);
+}
+
+.work__lines{
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.work__sublines:not(:last-child){
+    margin-right: 43px;
+}
+
+.work__sublines:hover{
+    color: var(--subtitle-text-color);
+    cursor: pointer;
+}
+
+.work__images--insideup{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.work__images--insidedown{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+
+/* ************ WORK STYLE ENDS*************** */
+
+
 
 
 
