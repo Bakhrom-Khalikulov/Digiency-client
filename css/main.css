@@ -209,9 +209,6 @@ a{
     padding-top: 276px;
     padding-bottom: 206px;
     background-color: var(--secondmain-bg-color);
-    /* background-image: url(../images/hero_bg.png);
-    background-repeat: no-repeat;
-    background-position: calc(50% + 200px), calc(50% + 100px); */
 }
 
 .hero__wrapper{
@@ -270,6 +267,235 @@ a{
 }
 
 
+/* ************ ABOUT STYLE STARTS*************** */
+.about-section{
+    padding-top: 120px;
+    background-color: var(--main--bg-color);
+}
+
+.about__wrapper{
+}
+
+.about__wrapper--start{
+    margin-bottom: 60px;
+}
+
+.about__inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.about__title{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.about__subtitle{
+    width: 494px;
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+.about__subtitle-color{
+    color: var(--subtitle-text-color);
+}
+
+.about__desc{
+    width: 569px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.about__link{
+    padding: 13px 22px;
+    margin-top: 0;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--subtitle-text-color);
+    background: var(--main--bg-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.about__link:hover{
+    color: var(--main--bg-color);
+    background: #FF5300;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.about__wrapper--end{
+    margin-bottom: 120px;
+}
+
+.about__list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about__item{
+    width: 270px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about__item:not(:last-child){
+    margin-right: 30px;
+}
+
+.about__img{
+    padding-top: 25px;
+    margin-bottom: 16px;
+}
+
+.about__subtext{
+    margin-top: 0;
+    padding-right: 31px;
+    padding-left: 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--title-text-color);
+}
+
+/* ************ ABOUT STYLE ENDS*************** */
+
+
+/* ************ EXPERIENCE STYLE STARTS*************** */
+.exp-section{
+    padding-top: 83px;
+    padding-bottom: 60px;
+    background-color: var(--secondmain-bg-color);
+}
+
+.exp__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp__wrapper--start{
+    margin-right: 30px;
+}
+
+.exp__title{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.exp__subtitle{
+    width: 487px;
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+.exp__subtitle-color{
+    color: var(--subtitle-text-color);
+}
+
+.exp__desc{
+    width: 569px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.exp__link{
+    padding: 13px 22px;
+    margin-top: 0;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--subtitle-text-color);
+    background: var(--main--bg-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.exp__link:hover{
+    color: var(--main--bg-color);
+    background: #FF5300;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.exp__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.exp__item{
+    width: 270px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: var(--main--bg-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.exp__item:nth-child(2){
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.exp__item:nth-child(4){
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+.exp__title-inside{
+    margin-top: 0;
+    margin-bottom: 18px;
+    padding-top: 74px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+.exp__desc-inside{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 74px;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--desc-text-color);
+}
+
+
+/* ************ EXPERIENCE STYLE ENDS*************** */
+
+
 
 
 
@@ -302,10 +528,11 @@ a{
     height: 40px;
     background-color: var(--main--bg-color);
     color: var(--subtitle-text-color);
+    transition: 1s ease;
 }
 
 .hero__social--link:hover{
-    width: 200px;
+    width: 100px;
     background-color: var(--subtitle-text-color);
     color: var(--main--bg-color);
 }
