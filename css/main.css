@@ -83,7 +83,7 @@
 
 :root{
     --main--bg-color: #fff;
-    --sedondmain-bg-color:  #FFF7F4;
+    --secondmain-bg-color:  #FFF7F4;
     --title-text-color: #373737;
     --subtitle-text-color: #FF5300;
     --desc-text-color: #7B7B7B;
@@ -194,3 +194,120 @@ a{
     color: var(--subtitle-text-color);
 }
 /* ************ HEADER STYLE ENDS*************** */
+
+
+/* ************ MAIN STYLE STARTS*************** */
+
+/* ************ HERO STYLE STARTS*************** */
+.site-main{
+    position: relative;
+    background-color: var(--main--bg-color);
+}
+
+/* ************ HERO STYLE ENDS*************** */
+.hero-section{
+    padding-top: 276px;
+    padding-bottom: 206px;
+    background-color: var(--secondmain-bg-color);
+    /* background-image: url(../images/hero_bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 200px), calc(50% + 100px); */
+}
+
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__wrapper--start{
+    width: 493px;
+}
+
+.hero__title{
+    margin-top: 0;
+    margin-bottom: 11px;
+    width: 440px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+.hero__title-color{
+    color: var(--subtitle-text-color);
+}
+
+.hero__desc{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.hero__link{
+    padding: 13px 22px;
+    margin-top: 0;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--subtitle-text-color);
+    background: var(--main--bg-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.hero__link:hover{
+    color: var(--main--bg-color);
+    background: #FF5300;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ************ MAIN STYLE ENDS*************** */
+
+
+/* ************ SOCIAL RIGHT SIDE STYLE STARTS*************** */
+.hero-social{
+    right: 0px;
+    bottom: 350px;
+    position: sticky;
+    text-align: right;
+}
+
+.social{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.hero__social--link{
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--main--bg-color);
+    color: var(--subtitle-text-color);
+}
+
+.hero__social--link:hover{
+    width: 200px;
+    background-color: var(--subtitle-text-color);
+    color: var(--main--bg-color);
+}
+/* ************ SOCIAL RIGHT SIDE STYLE ENDS*************** */
+
