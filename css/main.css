@@ -1016,16 +1016,104 @@ a{
     margin-right: 100px;
 }
 
-
-
-
-
-
-
-
-
-
 /* ************ MAIN STYLE ENDS*************** */
+
+
+/* ************ FOOTER STYLE STARTS*************** */
+.site-footer{
+    padding-top: 66px;
+    padding-bottom: 60px;
+    background-color: var(--title-text-color);
+}
+
+.footer__list{
+    display: flex;
+}
+
+.footer__item{
+    width: 260px;
+}
+
+.footer__item:not(:last-child){
+    margin-right: 40px;
+}
+
+
+.footer__title{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: var(--main--bg-color);
+}
+
+.footer__title-color{
+    color: var(--subtitle-text-color);
+}
+
+.footer__desc{
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--main--bg-color);
+}
+
+.footer__links{
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--main--bg-color);
+}
+
+.footer__social-link{
+    padding: 10px;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--main--bg-color);
+    color: var(--subtitle-text-color);
+}
+
+/* ************ FOOTER STYLE ENDS*************** */
+
+
+/* ************ COPYRIGHT STYLE STARTS*************** */
+.copyright{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: var(--subtitle-text-color);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright__text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--main--bg-color);
+}
+
+.copyright__icon{
+    color: var(--main--bg-color);
+}
+
+
+
+
+
+/* ************ COPYRIGHT STYLE ENDS*************** */
+
+
 
 
 /* ************ SOCIAL RIGHT SIDE STYLE STARTS*************** */
