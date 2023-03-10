@@ -857,7 +857,6 @@ a{
 
 /* ************ CONTACT STYLE STARTS*************** */
 .contact-section{
-    background-color: var(--secondmain-bg-color);
 }
 
 .contact__subtitle{
@@ -1006,12 +1005,16 @@ a{
     border: none;
 }
 
-
-
-
 /* ************ CONTACT STYLE ENDS*************** */
 
+.cert-section{
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
 
+.cert__img:not(:last-child){
+    margin-right: 100px;
+}
 
 
 
