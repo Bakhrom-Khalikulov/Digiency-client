@@ -739,6 +739,122 @@ a{
 
 
 
+/* ************ BLOG STYLE STARTS*************** */
+.blog-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.blog__subtitle{
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.blog__title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.blog__title-color{
+    color: var(--subtitle-text-color);
+}
+
+.blog__wrapper--start-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__wrapper--start{
+    padding: 25px;
+    margin-right: 30px;
+    background: var(--main--bg-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog__textimg-top{
+    display: flex;
+}
+
+.blog__title-top{
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--subtitle-text-color);
+}
+
+.blog__desc-top{
+    width: 308px;
+    margin-top: 0;
+    margin-right: 48px;
+    margin-bottom: 29px;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+
+.blog__wrapper--end{
+    padding: 25px;
+    background: var(--main--bg-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog__textimg-under{
+    display: flex;
+    align-items: center;
+}
+
+.blog__img-under{
+    margin-right: 10px;
+}
+
+.blog__title-under{
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--title-text-color);
+}
+
+.blog__time-under{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--desc-text-color);
+}
+
+.blog__slider{
+    padding-top: 60px;
+    margin-left: 540px;
+}
+
+/* ************ BLOG STYLE ENDS*************** */
+
+
+
 
 
 
